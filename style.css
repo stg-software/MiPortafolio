@@ -1,0 +1,96 @@
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #58a6e5;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #58a6e5
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+h1 span{
+    color: #58a6e5;
+}
+
+.div-style1{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    /* padding: 0 20px; */
+}
+
+#webdev-h1{
+    font-size: 4rem;
+}
+
+.title{
+    font-size: 2rem;
+    color: #58a6e5;
+}
+
+.texto{
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+
+#mi-port-main{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    background-color: #58a6e5;
+    border: 1px solid #58a6e5;
+    color: #fff;
+}
+
+header{
+    height: 10vh;
+    margin-bottom: 5rem;
+}
+
+#hnav{
+    position: static;
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eaeff4;
+}
+
+header nav div ul li{
+    float: left;
+}
+
+header nav div ul li a{
+    color: #4d4d4d;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #eaeff4;
+}

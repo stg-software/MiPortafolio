@@ -35,7 +35,7 @@ function contarPuntos (word){
 }
 btn.addEventListener("click", () => {
     res.textContent=contarPuntos(input.value);
-    document.write("hola" + suma);
+    input.value="";
 });
 
         

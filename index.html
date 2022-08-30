@@ -1,12 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mi portafolio</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 </head>
+
 <body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand navbar-light bg-light px-2 py-4">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+              <ul class="navbar-nav px-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec-mi-portafolio">Mi Portafolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec-about-me">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Contacto</a>
+                </li>
+              </ul>
+          </nav>
+        
+        <!-- HOME SECTION -->
+        <div class="row my-4">
+            <div class="col-md-8 col-sm-7 col-12">
+                <div class="d-flex flex-column">
+                        <p>Diseñador, Desarrollador, Creador</p>
+                        <h1 id="webdev-h1">Desarrollador Web <br> <span>Freelance</span></h1>
+                        <h4>HTML</h4>
+                        <p>Uso de HTML 5, HTML semantico (uso/manejo de  las etiquetas apropiadas segun las secciones), estructuracion de HTML pensada en paginas rensponsive</p>
+                        <h4>CSS</h4>
+                        <h6>Bootstrap 5:</h6> 
+                        <p>manipulacion de grid y flex, Uso de componentes en bootstrap (alerts, buttons, card, carousel),formularios, tables</p>
+                        <h6>Responsive design:</h6>
+                        <p>grid y flex, imagenes responsivas, pseudo elementos y pseudo clases, variables en css</p>
+                        <h4>JS</h4>
+                        <p>manejo de ciclos, ciclos anidados, condicicionales, manipulacion de arrays y objetos, manejo del DOM, manipulacion de eventos del DOM, manejo de funciones (funciones declarativas, funciones anonimas, funciones flecha), estamos viendo creacion y manipulacion de JSON, consumo de API REST</p>
+                            
+                        <a class="btn btn-outline-info w-25 m-auto" href="#sec-mi-portafolio">Mi Portafonio</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-5 col-12 text-center py-5">
+                <img class="w-75" style="border-radius: 50%;" src="./IMG_20220614_182923.jpg" alt="fotito">
+            </div>
+        </div>
     
+    
+        <!-- MI PORTAFOLIO -->
+        <div id="sec-mi-portafolio" class="d-flex flex-column text-center py-4" style="background-color: #eaeff4;">
+            <h2>Mi portafolio</h2>
+            <p style="margin: 0 auto; padding-top: 10; padding-bottom: 50px;">Estos son algunos ejemplo de aplicacion del conociumeintop arriba descrito
+            </p>
+            <div class="row">
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/calculadora.png" alt=""><br>
+                    <a href="./mini-pages/calculadora.html">Calculadora</a>
+                </div>
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/money.png" alt=""><br>
+                    <a href="./mini-pages/cambio_moneda.html">Cambio de moneda</a>
+                </div>
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/lista.png" alt=""><br>
+                    <a href="./mini-pages/leer_nombres.html">Lista de nombres</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/excel.png" alt=""><br>
+                    <a href="./mini-pages/horas de servicio/index.html">Horas de servicio</a>
+                </div>
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/JSON.png" alt=""><br>
+                    <a href="./prophets/prophets.html">Profetas</a>
+                </div>
+                <div class="col-4">
+                    <img style="width: 100px; border-radius: 20px;" src="./images/JSON.png" alt=""><br>
+                    <a href="./mini-pages/leer_nombres.html">Lista de nombres</a>
+                </div>
+                
+            </div>
+        </div>
+    
+        <!-- ABOUT ME -->
+        <section id="sec-about-me" style="padding: 80px 0; text-align: center;">
+            <div>
+                <h2>Sobre mi</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Formacion Academica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1996-1999</td>
+                            <td>Técnico Programador, Centro de Bachillerato Tecnológico Industrial y de Servicios No. 240, Puerto Escondido, Oaxaca</td>
+                        </tr>
+                        <tr>
+                            <td>2000-2007</td>
+                            <td>Lic. en Sistemas Computacionales, Universidad Mesoamericana, García Vigil 202, Oaxaca de Juárez, Oaxaca</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Experiencia laboral</th>
+                        </tr>
+                        <tr>
+                            <td>2008-2009</td>
+                            <td>Soporte técnico a equipos de emisión de licencias de conducir de transito  del estado de Oaxaca</td>
+                        </tr>
+                        <tr>
+                            <td>2012 - </td>
+                            <td>Ingeniero de Field Services, Mantenimiento preventivo y correctivo del CCTV en SAT y Aduanas</td>
+                        </tr>
+                    </tbody>   
+                </table>
+
+                
+                <div class="p-2 my-2">
+                    <h4>Otros cursos</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">“Certificación en amplificadores para cobertura celular 3G 4G y Nextel” Impartido por SYSCOM, el 24 de mayo de 2018.</li>
+                        <li class="list-group-item">“MIKROTIK Implementación de QoS-Curso Express SYSCOM” Impartido por SYSCOM, el 15 de Julio de 2020.</li>
+                        <li class="list-group-item">“MIKROTIK Creación de VPN-Curso Express SYSCOM” Impartido por SYSCOM, el 17 de Julio de 2020.</li>
+                        <li class="list-group-item">BYU-PathwayConnect 2020</li>
+                    </ul>
+                </div>
+                <div class="p-2 my-2">
+                    <h4>Habilidades</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Liderazgo</li>
+                        <li class="list-group-item">Planificacion y gestion del tiempo</del></li>
+                        <li class="list-group-item">Flexibilidad</li>
+                        <li class="list-group-item">Negociacion</li>
+                        <li class="list-group-item">Aprendizaje rapido</li>
+                        <li class="list-group-item">Ingles (hablado:95% Escrito:85%)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Hobbies</h4>
+                    <p>En mis tiempos liblres me gusta tocar guitarra, hacer algo de  reposteria, carpineria, leer algun libro y sobre todo, pasar tiempo con mi esposa y mis hijos</p>
+                </div>
+
+                
+            </div>
+        </section>
+    
+        <footer>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1><a style="text-decoration: none; color: #58a6e5;" href="#">Mi Portafolio</a></h1>
+                </div>
+                <div class="col-md-2">
+                    <h3>Links</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a style="text-decoration:none; color: #58a6e5; text-align: center;" href="#">Inicio</a></li>
+                        <li><a style="text-decoration:none; color: #58a6e5; text-align: center;" href="#sec-mi-portafolio">Mi Portafolio</a></li>
+                        <li><a style="text-decoration:none; color: #58a6e5; text-align: center;" href="#sec-about-me">Sobre Mi</a></li>
+                        <li><a style="text-decoration:none; color: #58a6e5; text-align: center;" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h3>Socials</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a style="text-decoration: none; color: #58a6e5; text-align: center;" href="#">Instagram</a></li>
+                        <li><a style="text-decoration: none; color: #58a6e5; text-align: center;" href="#">Facebook</a></li>
+                        <li><a style="text-decoration: none; color: #58a6e5; text-align: center;" href="#">Linked in</a></li>
+                        <li><a style="text-decoration: none; color: #58a6e5; text-align: center;" href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    
+        <!--
+        This script places a badge on your repl's full-browser view back to your repl's       cover page. Try various colors for the theme: dark, light, red, orange, yellow,       lime, green, teal, blue, blurple, magenta, pink!
+        -->
+        <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    </div>
 </body>
+
 </html>
